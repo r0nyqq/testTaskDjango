@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{object.title}}</title>
+</head>
+<body>
+    <h1>Заголовок новости: {{object.title}}</h1>
+    <h2>Содержание новости:</h2>
+    <p>{{object.description}}</p>
+    <a href="{% url 'news_list' %}">Вернуться к списку новостей</a>
+</body>
+</html>

@@ -3,5 +3,5 @@ from .views import NewsListView, NewsDetailView
 
 urlpatterns = [
     path('news_list/', NewsListView.as_view(), name='news_list'),
-    path('news_list/<int:p1k>/', NewsDetailView.as_view(), name='detail_news')
+    path('news_list/<int:pk>/', NewsDetailView.as_view(), name='detail_news')
 ]
